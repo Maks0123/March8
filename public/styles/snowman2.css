@@ -1,0 +1,257 @@
+
+
+  
+  .snowman {
+    width: 130px;
+    height: 115px;
+    background-color:	#FFFAFA;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 60px;
+    left: 70px;
+  
+  }
+  
+  .snowman:before {
+    content:"";
+    width: 100px;
+    height: 90px;
+    background-color:	#FFFAFA;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 80px;
+    left: 15px;
+    
+  }
+  
+  .snowman:after {
+    content:"";
+    width: 70px;
+    height: 70px;
+    background-color:	#FFFAFA;
+    position: absolute;
+    border-radius: 100%;
+    bottom: 150px;
+    left: 30px;
+   
+  }
+  
+  .buttons {
+    width:10px; height: 10px;
+    border-radius: 100%;
+    background: #000;
+    position: absolute;
+    margin: auto;
+    left:0;
+    right: 0;
+  }
+  
+  .buttons.b1 {
+    bottom:50px;
+  }
+  .buttons.b2{
+    bottom:90px;
+  }
+  .buttons.b3{
+    bottom:125px;
+  }
+  .buttons.b4{
+      z-index: 999;
+      position: relative;
+      top: -85px;
+      left: -10px;
+  }
+  
+  .buttons.b5{
+      z-index: 999;
+      position: relative;
+      top: -95px;
+      left: 13px;
+  }
+  
+  .mouth {
+    position: absolute;
+    width:40px;
+    margin: auto;
+    left:0;
+    right:0;
+    height: 25px;
+    top: -80px;
+    z-index: 999;
+    position: relative;
+  }
+    .m {
+      width: 6px;
+      height: 6px;
+      display: block;
+      background: #000;
+      border-radius: 100%;
+      margin-top: 0;
+      position:absolute;
+      top: 0;
+      left:0;
+    }
+    
+    .m.m2 {
+      left: 10px;
+      top: 5px;
+    }
+    .m.m3 {
+      left: 20px;
+      top: 7px;
+    }
+    .m.m4 {
+      left: 30px;
+      top: 5px;
+    }
+    
+     .m.m5 {
+      left: 40px;
+      top: 0px;
+    }
+  
+  
+  .nose {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 0 6px 40px;
+      border-color: transparent transparent transparent #e67e22;
+      -webkit-transform: rotate(15deg);
+      transform: rotate(15deg);
+      position: absolute;
+      margin:auto;
+      left: 0px;
+      right: -40px;
+    top: -70px;
+    z-index: 999;
+           
+  }
+  
+  .hat {
+    position: absolute;
+    z-index: 888;
+    height:35px;
+    width:60px;
+    border-radius: 60px 60px 0 0;
+    -moz-border-radius: 60px 60px 0 0;
+    -webkit-border-radius: 60px 60px 0 0;
+    background:#c0392b;
+    top:-132px;
+    right:42px;
+     -ms-transform: rotate(-10deg); /* IE 9 */
+      -webkit-transform: rotate(-10deg); /* Safari */
+      transform: rotate(-10deg);
+  }
+  
+  .hat:after {
+       position: ABSOLUTE;
+      display: block;
+      content: " ";
+      width: 54px;
+      height: 0px;
+      border: solid 6px #E66053;
+      border-radius: 3px;
+      bottom: -5px;
+      left: -2px;
+     -webkit-box-shadow: 0px -30px 33px -9px rgba(240,240,240,1);
+  -moz-box-shadow: 0px -30px 33px -9px rgba(240,240,240,1);
+  box-shadow: 0px -1px 3px 0px rgba(240,240,240,1);
+  }
+  
+  .hat:before {
+    position: absolute;
+    content: "";
+    width:17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #fff;
+    top:-13px;
+    right:25px;
+   -webkit-box-shadow: 0px 0px 3px 1px rgba(240,240,240,1);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(240,240,240,1);
+  box-shadow: 0px 0px 3px 1px rgba(240,240,240,1);
+    
+  }
+
+  
+  .snowflakes {
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: 999;
+    overflow: hidden;
+  }
+    .snowRow {
+      position: absolute;
+      width:100%;
+      height: 25%;
+      top:-25%;
+    }
+    
+   
+    span.snowflake1 {
+      display:block;
+      position:absolute;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: white;
+    
+    }
+    
+    span.snowflake2 {
+      display:block;
+      position:absolute;
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: rgba(240,240,240,0.8);
+  }
+  
+  
+  
+  
+  @keyframes snow1 {
+    0% {top: -25%; left: 0;}
+    40% {left: 30px;}
+    100% {top: 100%;left: 0;}
+  }
+  @-moz-keyframes snow1 {
+    0% {top: -25%; left: 0;}
+    40% {left: 30px;}
+    100% {top: 100%;left: 0;}
+  }
+  @-webkit-keyframes snow1 {
+    0% {top: -25%; left: 0;}
+    40% {left: 30px;}
+    100% {top: 100%;left: 0;}
+  }
+  @-ms-keyframes snow1 {
+    0% {top: -25%; left: 0;}
+    40% {left: 30px;}
+    100% {top: 100%;left: 0;}
+  }	
+  
+  
+  @keyframes snow2 {
+    0% {top: -25%; right: 0;}
+    30% {right: 60px;}
+    30% {right: 40px;}
+    100% {top: 100%;right: 0;}
+  }
+  @-moz-keyframes snow2 {
+    0% {top: -25%; right: 0;}
+    40% {right: 30px;}
+    100% {top: 100%;right: 0;}
+  }
+  @-webkit-keyframes snow2 {
+    0% {top: -25%; right: 0;}
+    40% {right: 30px;}
+    100% {top: 100%;right: 0;}
+  }
+  @-ms-keyframes snow2 {
+    0% {top: -25%; right: 0;}
+    40% {right: 30px;}
+    100% {top: 100%;right: 0;}
+  }	
+  
+  

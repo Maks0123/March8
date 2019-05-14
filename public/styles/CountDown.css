@@ -1,0 +1,48 @@
+.newyear {
+	display: flex;
+	width: 90vw;
+	height: 90vh;
+  overflow: hidden;
+	justify-content: center;
+	background-size: cover;
+	position: absolute;
+  font-family: 'Butterfly Kids', cursive;
+  color: rgb(220, 228, 243);
+  opacity: 0.7;
+}
+
+.newyear:after {
+	content: "2019";
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+	font-size: 40vh;
+	z-index: 1;
+	opacity: 0.4;
+	color: #fff;
+	text-shadow: 2px 0px 0px #fff;
+	filter: blur(3px);
+}
+
+#countdown {
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#countdown p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	font-size: 50px;
+	line-height: 70px;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+#countdown span {
+	font-size: 40px;
+}
+
